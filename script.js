@@ -100,23 +100,3 @@ else if(tinggiAir <= 650.0) {
 else if(tinggiAir > 650){
     console.log('Siaga 1')
 }
-
-
-
-
-
-
-
-
-
-
-// TUGAS DARI WhatsApp
-// +
-// +
-
-let JumlahTiketVIP = 50;
-let JumlahTiketEKSEKUTIF = 50;
-let JumlahTiketEKENOMI = 50;
-
-
-

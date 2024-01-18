@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body style="background-color: gray;">
+
+    <h1 style="color: white;">LKPD 3 dan 4</h1>
+    <script>
+        // looping for
+        // for(let i = 1; i <= 10; i++){
+        //     console.log(1);
+        // }
+
+        // let harimau = 20
+        // do {
+        //     console.log(harimau)
+        //     harimau++
+        // }while (harimau <= 30)
+
+
+
+
+
+        // for(let x = 1; x <= 50; x++) {                      
+        //     if (x % 2 == 0) {                               
+        //         console.log(x + " adalahgenap")             
+        //     }else {                                         
+        //         console.log(x + " adalahganjil")            
+        //     }                                               
+        //     }                                               
+
+
+        // let dori = 1
+        // while(dori <= 50 ) {
+        //     if (dori % 2 == 0) {
+        //         console.log(dori + "genap")
+        //     }
+        //     else {
+        //         console.log(dori + "ganjil")
+        //     }dori++   //iterasi
+        // }
+
+
+        // let N = 1;
+        // do {
+        //     if(N % 2 == 0){
+        //         console.log(N + "ganjill")
+        //     }
+        //     else {
+        //           console.log(N + "genap")
+        //     }
+        //     N++
+        // }while(N <= 50)
+
+        let fac = 1;
+        let number = 5;
+        for(let M = 1; M <= number; M++) {
+            fac*= M;
+        }console.log("faktorial dari " + number  ,  "adalah " + fac);
+
+        let fak = 1
+        let viber = 5
+        let o = 1
+        while(o <= viber) {
+            fak*= o
+            o++
+        }console.log(fak)
+
+
+
+        let FAC = 1
+        let NUMBER = 5
+        let y = 1
+        do {
+            FAC*= y
+            y++
+        }while(y <= NUMBER)console.log(FAC)
+
+        
+
+        // NOMOR 1
+
+
+        let beratJeruk = 9000;
+        let hargaJeruk = 500;
+
+        let TotalHargaSebelumDiskon = (beratJeruk / 100) * hargaJeruk;
+        let Diskon = TotalHargaSebelumDiskon * 0.05;
+        let hargaSetelahDiskon = TotalHargaSebelumDiskon - Diskon;
+
+        console.log('Total Harga Sebelum Diskon : ' + TotalHargaSebelumDiskon)
+        console.log('Diskon : ' + Diskon)
+        console.log('harga Setelah Diskon : ' + hargaSetelahDiskon)
+
+
+
+        // NOMOR 2   
+
+        let bilangan = 360;
+        let jutaan = Math.floor
+        let ratusan = Math.floor (bilangan / 100);
+        let puluhan = Math.floor (bilangan % 100) / 10;
+        let satuan = bilangan % 10
+        console.log("ratusan " + ratusan)
+        console.log("Puluhan " + puluhan)
+        console.log("Satuan " + satuan)
+
+        // nomor 3
+
+        let fahren = 200;
+
+        let suhu = (fahren - 32) * (5/9);
+
+        if (suhu > 300){
+            hasil = "panas";
+        }
+        else if (suhu < 250) {
+            hasil = "dingin";
+        }
+        else {
+            hasil = "normal"; 
+        }
+        console.log(`temperatur ${hasil}`)
+
+       
+
+
+       
+    </script>
+    <script src="scriptt.js"></script>
+</body>
+</html>

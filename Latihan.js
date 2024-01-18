@@ -5,8 +5,5 @@
     let gajibersih = gajipokok + tunjangan - pajak;
 
     // console.log(pekerja)
-    console.log("nama" + nama)
-    console.log("Gaji Pokok " + gajipokok)
-    console.log("tunjangan " +tunjangan)
-    console.log("pajak " + pajak)
-    console.log("gajibersih " + gajibersih)
+    console.log("nama " + nama, "Gaji Pokok " + gajipokok, "tunjangan " +tunjangan, "pajak " + pajak, "gajibersih " + gajibersih)
+    

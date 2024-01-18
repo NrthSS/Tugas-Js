@@ -4,5 +4,5 @@ let detik = 50;
 
 let TotalDetik = jam * 3600 + menit * 60 + detik
 
-console.log("total detik" + TotalDetik)
+console.log("total detik " + TotalDetik)
 
